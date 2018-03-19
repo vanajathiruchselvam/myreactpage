@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 class CarDetail extends Component {
     render(){
         // Car array
-        const cars = this.props.data;
+        const cakes = this.props.data;
         // Car Id from param
         const id = this.props.match.params.id;
         // Filter car with ID
-        const car = cars.filter(car => {
+        const car = cakes.filter(car => {
             if(car.id == id) {
                 return car;
             }

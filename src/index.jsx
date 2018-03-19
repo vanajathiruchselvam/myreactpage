@@ -55,14 +55,14 @@ const data = [
         media: 'https://www.willcookforsmiles.com/wp-content/uploads/2012/05/DSC_1192-edited.jpg',
         price: '5500/='
 
-}];
+  }];
 render(
     <BrowserRouter>
 
       <Main>
             <Route exact path="/" component={Home}/>
-            <Route path="/cars" render={(props) => (<Car {...props} data={data}/>)}/>
-            <Route path="/cars/:id" render={(props) => (<CarDetail {...props} data={data}/>)}/>
+            <Route path="/cakes" render={(props) => (<Car {...props} data={data}/>)}/>
+            <Route path="/cakes/:id" render={(props) => (<CarDetail {...props} data={data}/>)}/>
             <Route path="/about" component={About}/>
       </Main>
 

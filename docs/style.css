@@ -2,3 +2,19 @@ a.active {
     color: #000000 !important;
     text-decoration: underline !important;
 }
+.title{
+  font-size: 50px;
+  color: blue;
+  text-align: center;
+  font-family: monospace;
+}
+
+.pf{
+  text-align: center;
+}
+.pt{
+  font-family: monospace;
+}
+.bo{
+padding-right: 500px;
+}

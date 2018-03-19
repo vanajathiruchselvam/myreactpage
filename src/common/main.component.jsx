@@ -14,8 +14,8 @@ class Main extends Component {
                             <ul className="nav navbar-nav">
                                 {/* Change from a to Link */}
                                 <li><Link to="/" activeclassname="active">Home</Link></li>
-                                <li><Link to="/cars" activeclassname="active">Cakes</Link></li>
-                                <li><Link to="/about" activeclassname="active">About</Link></li>
+                                <li><Link to="/cakes" activeclassname="active">Cakes</Link></li>
+                                <li><Link to="/about" activeclassname="active">Contact Us</Link></li>
                             </ul>
                         </div>
                     </div>
